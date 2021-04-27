@@ -176,7 +176,7 @@ public class QuickQSPanel extends QSPanel {
 
     @Override
     public void onTuningChanged(String key, String newValue) {
-        if (QS_SHOW_BRIGHTNESS.equals(key) && mBrightnessView != null) {
+        if (QS_SHOW_BRIGHTNESS_SLIDER.equals(key) && mBrightnessView != null) {
             mBrightnessView.setVisibility(View.VISIBLE);
         }
     }
